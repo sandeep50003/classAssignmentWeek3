@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding:0px;
+            margin:0px;
+        }
+        .container {
+    display: flex;
+    gap: 5px;
+}
+.col-2 {
+    width: 10%;
+    background: #6fff6f;
+    padding: 16px;
+}
+.col-3 {
+    background: skyblue;
+    padding: 16px;
+    width: 21%;
+}
+header {
+    text-align: center;
+    background: orange;
+    padding: 9px;
+    margin-bottom: 5px;
+}
+.footer {
+    margin-top: 5px;
+    text-align: center;
+    background: orange;
+    padding: 3px;
+}
+.col-5 {
+    width: 80%;
+    background: #81fcf5;
+    padding: 21px;
+}
+.col-2 ul {
+    list-style: none;
+    margin: 0px;
+    padding-left: 11px;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="header" role="banner">
+            <h1>HTML5 Semantics and Flexbox</h1>
+        </div>
+    </header>
+
+        <div class="container">
+            <div class="col-2">
+                <nav role='navigation' aria-label='Menu'>
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li>Home</li>
+                        <li><a role="link" href="#">Link 1</a></li>
+                        <li><a role="link" href="#">Link 2</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-5">
+                <main role="article" >
+                <h2>About this page</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolor minima sequi, earum repellendus doloribus id blanditiis totam libero! Fugit placeat debitis quam magni, ex exercitationem. Odit illo cumque amet!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, fugiat. Exercitationem voluptatem officia nam, provident doloremque in porro nobis suscipit blanditiis illum tenetur laboriosam velit odit molestias, quaerat reiciendis corporis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit illo incidunt pariatur quae dolorum voluptatibus magni eum a, voluptas nam est minima magnam fuga dolore, obcaecati sunt facere aut assumenda.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nemo minima dolores expedita voluptatum aliquid quo necessitatibus saepe incidunt distinctio, velit cumque perspiciatis cupiditate ullam cum unde doloremque odio nostrum!</p>
+                <h2>Test This Page</h2>
+                <p>Do test this page by:</p>
+                <ul role="list">
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptas quod tempore dicta amet provident reprehenderit temporibus eum ea deserunt! Sunt accusantium praesentium similique quam quaerat corporis laboriosam provident aliquid.</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem expedita repellat enim iusto sed impedit, tempore unde quaerat eaque sint<a href="#" role="link">Click here</a></li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas tempore molestias temporibus quos accusamus, eius id veritatis, nemo voluptate optio sunt illo, laboriosam reiciendis <a href="#" role="link">Click here</a></li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab id reprehenderit iure laborum natus, <a href="#" role="link">Click here</a></li>
+                </ul>
+                </main>
+            </div>
+            <div class="col-3">
+                <h2>HTML</h2>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quos, dolore, magnam maxime ipsum iure quisquam ad dolorem quidem quas qui. Doloremque fugiat provident rerum? Quis et ipsum architecto nemo.</P>
+                <h2>CSS</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero pariatur modi illo, alias quo dolore vel perspiciatis, eveniet mollitia nam quod veniam! Explicabo iure distinctio minus, recusandae eos dolor enim.</p>
+                <h2>URL</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi facilis, accusamus enim beatae cum debitis odio officia optio vitae odit magni minus voluptas quaerat totam? Provident quam laboriosam iure odio!</p>
+
+            </div>
+        </div>
+   <footer>
+    <div class="footer" aria-label="Footer">
+        <p>Nov, 2015 @ rayray</p>
+    </div>
+   </footer>
+</body>
+</html>
